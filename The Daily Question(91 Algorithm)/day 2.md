@@ -12,7 +12,7 @@ class Solution {
         int len = s.length();
         int[] res = new int[len]; 
 
-        int minNum = Integer.MIN_VALUE / 2; //make sure the num is small enough
+        int minNum = Integer.MIN_VALUE / 2; //make sure the num is smaller enough
         int pre = minNum; //the distance of the nearest C on the left
         for(int i = 0; i < len; i++) {
             if(s.charAt(i) == c) {
