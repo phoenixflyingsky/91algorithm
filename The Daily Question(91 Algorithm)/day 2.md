@@ -1,4 +1,4 @@
-### 821. Shortest Distance to a Character
+## 821. Shortest Distance to a Character
 
 ### Idea
 - First loop: traverse from left to right to find the nearest c on the left.
