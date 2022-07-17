@@ -2,8 +2,8 @@
 
 ### Idea
 
-build an array(int[] stack) to save the data, and then build an array(int[] auxiliaryAdd) to save the increments
-- This question is very interesting: 
+build an array(int[] stack) to save the data, and then build an array(int[] auxiliaryAdd) to save the increments.    
+This question is very interesting: 
 - we use an array (int[] stack) to save the data. 
 - we also use an auxiliary array(int[] auxiliaryAdd) to record each Inc operation. Specifically, if the Inc operation is to Increments the bottom k elements of the stack by val, then we will auxiliaryAdd[k - 1] to add Val, because, in this algorithm, we only need to know the specific value of the elements at the top of the stack. So, we just need to store the increment of each element. 
 
